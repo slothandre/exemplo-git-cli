@@ -24,6 +24,10 @@
 
  Inicializar um repositório (executado dentro da pasta)
 
+ `git branch nome-branch-atual novo-nome-para-branch`
+
+ Renomear a branch de **master** para **main** (novo padrão), usaríamos: `git branch master main`
+
  `git status`
 
  Verificar o status atual do repositório
@@ -35,3 +39,7 @@
  `git commit -m "Texto da mensagem sobre esta alteração"`
 
  Fazer commit das alterações (salvar no histórico).
+
+ `git remote add origin endereço-do-repositório.git`
+
+ Adicionar/conectar o repositório remoto ao local
